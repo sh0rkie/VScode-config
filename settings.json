@@ -1,0 +1,40 @@
+{
+  // UI theme and icon set
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+
+  // Font configuration
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace",
+  "editor.fontSize": 14,
+
+  // Editor appearance
+  "editor.lineNumbers": "relative",
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "none",
+
+  // File explorer settings
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": false,
+
+  // Layout and visibility
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "single",
+  "workbench.layoutControl.enabled": false,
+  "breadcrumbs.enabled": false,
+
+  // Window behavior
+  "window.customTitleBarVisibility": "never",
+  "window.menuBarVisibility": "toggle",
+
+  // Other UI elements
+  "chat.commandCenter.enabled": false,
+  "workbench.tips.enabled": false,
+
+  // File handling
+  "files.autoSave": "afterDelay",
+
+  // Startup behavior
+  "workbench.startupEditor": "none"
+}
