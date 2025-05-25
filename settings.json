@@ -36,5 +36,19 @@
   "files.autoSave": "afterDelay",
 
   // Startup behavior
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+
+  // IntelliSense & AI-powered suggestions
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.parameterHints.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.tabCompletion": "on",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestSelection": "first"
 }

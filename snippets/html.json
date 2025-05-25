@@ -1,0 +1,21 @@
+{
+  "Basic HTML Template": {
+    "prefix": "htmltemplate",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "  <head>",
+      "    <title>${1:example}</title>",
+      "    <meta charset=\"UTF-8\">",
+      "    <link rel=\"stylesheet\" href=\"${2:style.css}\">",
+      "  </head>",
+      "  <body>",
+      "    <h1>${3:Example}</h1>",
+      "    <p>${4:This is an example HTML file.}</p>",
+      "  </body>",
+      "  <script src=\"${5:script.js}\"></script>",
+      "</html>"
+    ],
+    "description": "Basic HTML boilerplate"
+  }
+}
